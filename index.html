@@ -3,11 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | PetEden</title>
+    <title>Unity WebGL PWA | PetEden</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
+    <link rel="manifest" href="manifest.json" />
   </head>
   <body>
+    <body class="dark"></body>
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=720 height=1280></canvas>
       <div id="unity-loading-bar">
@@ -64,7 +66,7 @@
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "PetEden",
-        productVersion: "1.0",
+        productVersion: "0",
         showBanner: unityShowBanner,
       };
 
